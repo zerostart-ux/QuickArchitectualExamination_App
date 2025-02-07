@@ -15,7 +15,7 @@ const NumberScreen = ({ navigation })=> {
         <CheckBox title = '70問'/>
         <CheckBox title = '80問'/>
         <Button title = "開始"
-            onPress={ () => navigation.navigate("quetion")}
+            onPress={ () => navigation.navigate("Quetion")}
         />
     </View>
   );
